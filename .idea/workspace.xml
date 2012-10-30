@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a2be76c-457d-495e-bdb7-a2455c7b38a2" name="Default" comment="Apply RSS">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/themes/twitter/images/israel_256.png" />
+    <list default="true" id="7a2be76c-457d-495e-bdb7-a2455c7b38a2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/themes/twitter/images/ארגונומיקה בעבודה.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/themes/twitter/images/תרגילים - neck spasm.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/themes/twitter/images/תרגילים - neck strain.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/themes/twitter/images/תרגילים - בעבודה, אחרי ישיבה ממושכת.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/themes/twitter/images/תרגילים - גב עליון.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Urigo.iml" afterPath="$PROJECT_DIR$/.idea/Urigo.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/themes/twitter/default.html" afterPath="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/themes/twitter/css/style.css" afterPath="$PROJECT_DIR$/assets/themes/twitter/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Fitness.html" afterPath="$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Fitness.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Money/Savings/Savings.html" afterPath="$PROJECT_DIR$/Map/Money/Savings/Savings.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Computer_science/Computer_science.html" afterPath="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Computer_science/Computer_science.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Source_control/Source_control.html" afterPath="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Source_control/Source_control.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/UI/Examples/Examples.html" afterPath="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/UI/Examples/Examples.html" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,71 +35,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Apache.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Server/Apache/Apache.html">
+      <file leaf-file-name="Testing.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Testing/Testing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="9" selection-start="245" selection-end="361" vertical-scroll-proportion="-4.375">
+            <state line="5" column="8" selection-start="309" selection-end="309" vertical-scroll-proportion="-3.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Symfony2.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Frameworks/Symfony2/Symfony2.html">
+      <file leaf-file-name="Source_control.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Source_control/Source_control.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="60" selection-start="9840" selection-end="9840" vertical-scroll-proportion="-5.5416665">
+            <state line="10" column="5" selection-start="505" selection-end="505" vertical-scroll-proportion="-6.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rent.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Map/Home/Rent/Rent.html">
+      <file leaf-file-name="Tools.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/UI/Tools/Tools.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tree.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tree.js">
+      <file leaf-file-name="Examples.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/UI/Examples/Examples.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="24" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1581#10583#0" expanded="false" />
-                <element signature="e#10718#17726#0" expanded="false" />
-                <element signature="e#17858#28450#0" expanded="false" />
-                <element signature="e#28621#29910#0" expanded="false" />
-                <element signature="e#30042#31728#0" expanded="false" />
-                <element signature="e#31860#32366#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Urigo.iml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/Urigo.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="196" column="55" selection-start="8059" selection-end="8059" vertical-scroll-proportion="-9.583333">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
+      <file leaf-file-name="Fitness.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Fitness.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="191" column="46" selection-start="7284" selection-end="7284" vertical-scroll-proportion="0.8923445">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="52" selection-start="1570" selection-end="1570" vertical-scroll-proportion="-15.346154">
+            <state line="13" column="85" selection-start="894" selection-end="894" vertical-scroll-proportion="0.58208954">
               <folding />
             </state>
           </provider>
@@ -106,19 +89,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Map.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Map/Map.html">
+      <file leaf-file-name="Pension.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Money/Savings/Pension/Pension.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="27" selection-start="5" selection-end="27" vertical-scroll-proportion="-0.0">
+            <state line="11" column="9" selection-start="298" selection-end="322" vertical-scroll-proportion="-6.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Linux.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Operation_systems/Linux/Linux.html">
+      <file leaf-file-name="Profit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Money/Profit/Profit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="33" selection-start="868" selection-end="868" vertical-scroll-proportion="-13.583333">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Savings.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Money/Savings/Savings.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="66" selection-start="66" selection-end="66" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Computer_science.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Computer_science/Computer_science.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="73" selection-start="1140" selection-end="1140" vertical-scroll-proportion="-10.208333">
               <folding />
             </state>
           </provider>
@@ -137,22 +138,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Map/Health_and_beauty/Information/Information.html" />
-        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Display/CSS/CSS.html" />
+        <option value="$PROJECT_DIR$/../design/timeline.html" />
+        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Libraries/Maps/Maps.html" />
         <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Javascript/Javascript.html" />
-        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Testing/Testing.html" />
-        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Management/Resources/Resources.html" />
-        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Server/Database/NO_SQL/NO_SQL.html" />
-        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Education/Education.html" />
-        <option value="$PROJECT_DIR$/Map/Money/Savings/Pension/Pension.html" />
-        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Operation_systems/Linux/Linux.html" />
-        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Server/Apache/Apache.html" />
-        <option value="$PROJECT_DIR$/Map/Map.html" />
-        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Frameworks/Symfony2/Symfony2.html" />
-        <option value="$PROJECT_DIR$/Map/Home/Rent/Rent.html" />
+        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/UI/Prototype/Prototype.html" />
+        <option value="$PROJECT_DIR$/Map/Home/Home.html" />
+        <option value="$PROJECT_DIR$/Map/Time/Time.html" />
+        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Languages/Server_side/Node.js/NodeJS.html" />
+        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Display/CSS/CSS.html" />
         <option value="$PROJECT_DIR$/tree.js" />
-        <option value="$PROJECT_DIR$/assets/themes/twitter/css/style.css" />
-        <option value="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
+        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Testing/Testing.html" />
+        <option value="$PROJECT_DIR$/Map/Money/Savings/Pension/Pension.html" />
+        <option value="$PROJECT_DIR$/Map/Money/Savings/Savings.html" />
+        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Computer_science/Computer_science.html" />
+        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Source_control/Source_control.html" />
+        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/UI/Examples/Examples.html" />
+        <option value="$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Fitness.html" />
       </list>
     </option>
   </component>
@@ -265,7 +266,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Management" />
+              <option name="myItemId" value="Computers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -287,29 +288,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Management" />
+              <option name="myItemId" value="Computers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Urigo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Urigo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Map" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
+              <option name="myItemId" value="UI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -327,11 +310,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
+              <option name="myItemId" value="Professionalism_and_education" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Rent" />
+              <option name="myItemId" value="Computers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,11 +340,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
+              <option name="myItemId" value="Health_and_beauty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Urigo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Urigo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Outdoor" />
+              <option name="myItemId" value="Map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Health_and_beauty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fitness" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1425,7 +1434,47 @@
       <created>1351030930992</created>
       <updated>1351030930992</updated>
     </task>
-    <option name="localTasksCounter" value="240" />
+    <task id="LOCAL-00240" summary="Languages buttons">
+      <created>1351031445600</created>
+      <updated>1351031445600</updated>
+    </task>
+    <task id="LOCAL-00241" summary="Languages buttons">
+      <created>1351031613687</created>
+      <updated>1351031613687</updated>
+    </task>
+    <task id="LOCAL-00242" summary="Languages buttons">
+      <created>1351080575265</created>
+      <updated>1351080575265</updated>
+    </task>
+    <task id="LOCAL-00243" summary="Languages buttons">
+      <created>1351178494970</created>
+      <updated>1351178494971</updated>
+    </task>
+    <task id="LOCAL-00244" summary="Maps">
+      <created>1351178600666</created>
+      <updated>1351178600667</updated>
+    </task>
+    <task id="LOCAL-00245" summary="Maps">
+      <created>1351178719205</created>
+      <updated>1351178719206</updated>
+    </task>
+    <task id="LOCAL-00246" summary="Maps">
+      <created>1351285005748</created>
+      <updated>1351285005749</updated>
+    </task>
+    <task id="LOCAL-00247" summary="Maps">
+      <created>1351433939390</created>
+      <updated>1351433939390</updated>
+    </task>
+    <task id="LOCAL-00248" summary="Maps">
+      <created>1351434037961</created>
+      <updated>1351434037962</updated>
+    </task>
+    <task id="LOCAL-00249" summary="Maps">
+      <created>1351434063923</created>
+      <updated>1351434063924</updated>
+    </task>
+    <option name="localTasksCounter" value="250" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1450,14 +1499,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2810271" sideWeight="0.493517" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39942938" sideWeight="0.493517" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35575366" sideWeight="0.7189729" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3687196" sideWeight="0.6005706" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3517018" sideWeight="0.21825963" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2810271" sideWeight="0.5008104" order="7" side_tool="true" content_ui="tabs" />
@@ -1508,7 +1557,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Apply RSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maps" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1521,8 +1570,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Undo renaming" />
-    <MESSAGE value="Finaly" />
     <MESSAGE value="Rename date" />
     <MESSAGE value="Rename date not zero" />
     <MESSAGE value="Remove Jquery" />
@@ -1546,106 +1593,108 @@
     <MESSAGE value="Content" />
     <MESSAGE value="Locale" />
     <MESSAGE value="Apply RSS" />
+    <MESSAGE value="Languages buttons" />
+    <MESSAGE value="Maps" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Javascript/Javascript.html">
+    <entry file="file://$PROJECT_DIR$/Map/Time/Time.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="92" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
+        <state line="16" column="44" selection-start="587" selection-end="587" vertical-scroll-proportion="-10.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Testing/Testing.html">
+    <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="57" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+        <state line="56" column="0" selection-start="2407" selection-end="2540" vertical-scroll-proportion="-6.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Management/Resources/Resources.html">
+    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Languages/Server_side/Node.js/NodeJS.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="78" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
+        <state line="29" column="62" selection-start="1110" selection-end="1110" vertical-scroll-proportion="-10.833333">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Server/Database/NO_SQL/NO_SQL.html">
+    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Display/CSS/CSS.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Education/Education.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="21" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Money/Savings/Pension/Pension.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="74" selection-start="337" selection-end="337" vertical-scroll-proportion="-6.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Operation_systems/Linux/Linux.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="33" selection-start="868" selection-end="868" vertical-scroll-proportion="-13.583333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/Urigo.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Server/Apache/Apache.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="9" selection-start="245" selection-end="361" vertical-scroll-proportion="-4.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Frameworks/Symfony2/Symfony2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="60" selection-start="9840" selection-end="9840" vertical-scroll-proportion="-5.5416665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Map.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="27" selection-start="5" selection-end="27" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Home/Rent/Rent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.0">
+        <state line="27" column="50" selection-start="1233" selection-end="1233" vertical-scroll-proportion="-12.708333">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tree.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="24" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1581#10583#0" expanded="false" />
-            <element signature="e#10718#17726#0" expanded="false" />
-            <element signature="e#17858#28450#0" expanded="false" />
-            <element signature="e#28621#29910#0" expanded="false" />
-            <element signature="e#30042#31728#0" expanded="false" />
-            <element signature="e#31860#32366#0" expanded="false" />
-          </folding>
+        <state line="99" column="141" selection-start="5609" selection-end="5609" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Frameworks/Symfony2/Symfony2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="27" selection-start="10339" selection-end="10366" vertical-scroll-proportion="-31.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Testing/Testing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="8" selection-start="309" selection-end="309" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Money/Savings/Pension/Pension.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="9" selection-start="298" selection-end="322" vertical-scroll-proportion="-6.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Money/Savings/Savings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="66" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Computer_science/Computer_science.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="73" selection-start="1140" selection-end="1140" vertical-scroll-proportion="-10.208333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Money/Profit/Profit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Source_control/Source_control.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="5" selection-start="505" selection-end="505" vertical-scroll-proportion="-6.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/UI/Tools/Tools.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/UI/Examples/Examples.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="196" column="55" selection-start="8059" selection-end="8059" vertical-scroll-proportion="-9.583333">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1656,16 +1705,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/style.css">
+    <entry file="file://$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Fitness.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="52" selection-start="1570" selection-end="1570" vertical-scroll-proportion="-15.346154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="46" selection-start="7284" selection-end="7284" vertical-scroll-proportion="0.8923445">
+        <state line="13" column="85" selection-start="894" selection-end="894" vertical-scroll-proportion="0.58208954">
           <folding />
         </state>
       </provider>
