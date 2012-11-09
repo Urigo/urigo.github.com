@@ -788,6 +788,11 @@ function init(){
                     name: "Strength",
                     data: {'url':'#/?urlParam=Health_and_beauty/Fitness/Strength'},
                     children: []
+                }, {
+                    id: "Health_and_beauty/Fitness/Working",
+                    name: "Working",
+                    data: {'url':'#/?urlParam=Health_and_beauty/Fitness/Working'},
+                    children: []
                 }]
             },{
                 id: "Health_and_beauty/Information",
