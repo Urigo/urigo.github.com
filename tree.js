@@ -118,6 +118,11 @@ function init(){
                                         name: "AngularJS",
                                         data: {'url':'#/?urlParam=Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Javascript/AngularJS'},
                                         children: []
+                                    },{
+                                        id: "Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Javascript/Meteor",
+                                        name: "Meteor",
+                                        data: {'url':'#/?urlParam=Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Javascript/Meteor'},
+                                        children: []
                                     }]
                                 },{
                                     id: "Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Display",
