@@ -1,0 +1,7 @@
+guzzle ignore ssl warning
+curl -k  -  http://scottlinux.com/2012/02/14/curl-ignore-ssl-certificate-warnings/
+http://curl.haxx.se/docs/manpage.html
+http://inchoo.net/tools-frameworks/symfony2-guzzle-ssl-self-signed-certificate/
+http://php.net/manual/en/function.curl-setopt.php
+
+$req->getCurlOptions()->set(CURLOPT_SSL_VERIFYPEER, FALSE);
