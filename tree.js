@@ -244,6 +244,11 @@ function init(){
                     data: {'url':'#/?urlParam=Professionalism_and_education/Management/Tools'},
                     children: []
                 }]
+            }, {
+                id: "Professionalism_and_education/Education",
+                name: "Education",
+                data: {'url':'#/?urlParam=Professionalism_and_education/Education'},
+                children: []
             }]
         }, {
             id: "Money",
