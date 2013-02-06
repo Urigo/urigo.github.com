@@ -803,7 +803,27 @@ function init(){
                 id: "Health_and_beauty/Beauty",
                 name: "Beauty",
                 data: {'url':'#/?urlParam=Health_and_beauty/Beauty'},
-                children: []
+                children: [{
+                    id: "Health_and_beauty/Beauty/Face",
+                    name: "Face",
+                    data: {'url':'#/?urlParam=Health_and_beauty/Fitness/Face'},
+                    children: []
+                },{
+                    id: "Health_and_beauty/Beauty/Hair",
+                    name: "Hair",
+                    data: {'url':'#/?urlParam=Health_and_beauty/Fitness/Hair'},
+                    children: []
+                },{
+                    id: "Health_and_beauty/Beauty/Smell",
+                    name: "Smell",
+                    data: {'url':'#/?urlParam=Health_and_beauty/Fitness/Smell'},
+                    children: []
+                },{
+                    id: "Health_and_beauty/Beauty/Teeth",
+                    name: "Teeth",
+                    data: {'url':'#/?urlParam=Health_and_beauty/Fitness/Teeth'},
+                    children: []
+                }]
             },{
                 id: "Health_and_beauty/Fitness",
                 name: "Fitness",
