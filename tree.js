@@ -800,9 +800,9 @@ function init(){
                 data: {'url':'#/?urlParam=Health_and_beauty/Longevity'},
                 children: []
             }, {
-                id: "Health_and_beauty/Longevity",
-                name: "Longevity",
-                data: {'url':'#/?urlParam=Health_and_beauty/Longevity'},
+                id: "Health_and_beauty/Beauty",
+                name: "Beauty",
+                data: {'url':'#/?urlParam=Health_and_beauty/Beauty'},
                 children: []
             },{
                 id: "Health_and_beauty/Fitness",
