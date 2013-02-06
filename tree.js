@@ -745,29 +745,24 @@ function init(){
                     children: []
                 }]
             }, {
-                id: "Health_and_beauty/Fitness",
-                name: "Fitness",
-                data: {'url':'#/?urlParam=Health_and_beauty/Fitness'},
+                id: "Soul/Music",
+                name: "Music",
+                data: {'url':'#/?urlParam=Soul/Values/Music'},
                 children: [{
-                    id: "Health_and_beauty/Fitness/Running",
-                    name: "Running",
-                    data: {'url':'#/?urlParam=Health_and_beauty/Fitness/Running'},
+                    id: "Soul/Music/Dance",
+                    name: "Dance",
+                    data: {'url':'#/?urlParam=Soul/Values/Music/Dance'},
                     children: []
                 }, {
-                    id: "Health_and_beauty/Fitness/Strength",
-                    name: "Strength",
-                    data: {'url':'#/?urlParam=Health_and_beauty/Fitness/Strength'},
+                    id: "Soul/Music/Guitar",
+                    name: "Guitar",
+                    data: {'url':'#/?urlParam=Soul/Values/Music/Guitar'},
                     children: []
                 }]
             },{
-                id: "Health_and_beauty/Information",
-                name: "Information",
-                data: {'url':'#/?urlParam=Health_and_beauty/Information'},
-                children: []
-            },{
-                id: "Health_and_beauty/Nutrition",
-                name: "Nutrition",
-                data: {'url':'#/?urlParam=Health_and_beauty/Nutrition'},
+                id: "Soul/Inspiration",
+                name: "Inspiration",
+                data: {'url':'#/?urlParam=Soul/Inspiration'},
                 children: []
             }]
         }, {
