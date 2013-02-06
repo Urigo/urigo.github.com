@@ -287,11 +287,31 @@ function init(){
                         name: "Energy",
                         data: {'url':'#/?urlParam=Money/Savings/Expenses_types/Energy'},
                         children: []
+                    }, {
+                        id: "Money/Savings/Expenses_types/Food",
+                        name: "Food",
+                        data: {'url':'#/?urlParam=Money/Savings/Expenses_types/Food'},
+                        children: []
+                    }, {
+                        id: "Money/Savings/Expenses_types/Housing",
+                        name: "Housing",
+                        data: {'url':'#/?urlParam=Money/Savings/Expenses_types/Housing'},
+                        children: []
+                    }, {
+                        id: "Money/Savings/Expenses_types/Mobility",
+                        name: "Mobility",
+                        data: {'url':'#/?urlParam=Money/Savings/Expenses_types/Mobility'},
+                        children: []
+                    }, {
+                        id: "Money/Savings/Expenses_types/Give_others",
+                        name: "Give others",
+                        data: {'url':'#/?urlParam=Money/Savings/Expenses_types/Give_others'},
+                        children: []
                     }]
                 }, {
-                    id: "node330",
-                    name: "3.30",
-                    data: {},
+                    id: "Money/Savings/Information",
+                    name: "Information",
+                    data: {'url':'#/?urlParam=Money/Savings/Information'},
                     children: [{
                         id: "node431",
                         name: "4.31",
@@ -299,171 +319,16 @@ function init(){
                         children: []
                     }]
                 }, {
-                    id: "node332",
-                    name: "3.32",
-                    data: {},
-                    children: [{
-                        id: "node433",
-                        name: "4.33",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node434",
-                        name: "4.34",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node435",
-                        name: "4.35",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node436",
-                        name: "4.36",
-                        data: {},
-                        children: []
-                    }]
+                    id: "Money/Savings/Pension",
+                    name: "Pension",
+                    data: {'url':'#/?urlParam=Money/Savings/Pension'},
+                    children: []
                 }]
             }, {
-                id: "node237",
-                name: "2.37",
-                data: {},
-                children: [{
-                    id: "node338",
-                    name: "3.38",
-                    data: {},
-                    children: [{
-                        id: "node439",
-                        name: "4.39",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node440",
-                        name: "4.40",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node441",
-                        name: "4.41",
-                        data: {},
-                        children: []
-                    }]
-                }, {
-                    id: "node342",
-                    name: "3.42",
-                    data: {},
-                    children: [{
-                        id: "node443",
-                        name: "4.43",
-                        data: {},
-                        children: []
-                    }]
-                }, {
-                    id: "node344",
-                    name: "3.44",
-                    data: {},
-                    children: [{
-                        id: "node445",
-                        name: "4.45",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node446",
-                        name: "4.46",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node447",
-                        name: "4.47",
-                        data: {},
-                        children: []
-                    }]
-                }, {
-                    id: "node348",
-                    name: "3.48",
-                    data: {},
-                    children: [{
-                        id: "node449",
-                        name: "4.49",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node450",
-                        name: "4.50",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node451",
-                        name: "4.51",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node452",
-                        name: "4.52",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node453",
-                        name: "4.53",
-                        data: {},
-                        children: []
-                    }]
-                }, {
-                    id: "node354",
-                    name: "3.54",
-                    data: {},
-                    children: [{
-                        id: "node455",
-                        name: "4.55",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node456",
-                        name: "4.56",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node457",
-                        name: "4.57",
-                        data: {},
-                        children: []
-                    }]
-                }]
-            }, {
-                id: "node258",
-                name: "2.58",
-                data: {},
-                children: [{
-                    id: "node359",
-                    name: "3.59",
-                    data: {},
-                    children: [{
-                        id: "node460",
-                        name: "4.60",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node461",
-                        name: "4.61",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node462",
-                        name: "4.62",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node463",
-                        name: "4.63",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node464",
-                        name: "4.64",
-                        data: {},
-                        children: []
-                    }]
-                }]
+                id: "Money/Profit",
+                name: "Profit",
+                data: {'url':'#/?urlParam=Money/Profit'},
+                children: []
             }]
         }, {
             id: "Time",
@@ -843,6 +708,11 @@ function init(){
                     name: "Working",
                     data: {'url':'#/?urlParam=Health_and_beauty/Fitness/Working'},
                     children: []
+                }, {
+                    id: "Health_and_beauty/Fitness/Swimming",
+                    name: "Swimming",
+                    data: {'url':'#/?urlParam=Health_and_beauty/Fitness/Swimming'},
+                    children: []
                 }]
             },{
                 id: "Health_and_beauty/Information",
@@ -918,6 +788,11 @@ function init(){
                 id: "Home/Travel",
                 name: "Travel",
                 data: {'url':'#/?urlParam=Home/Travel'},
+                children: []
+            },{
+                id: "Home/Things",
+                name: "Things",
+                data: {'url':'#/?urlParam=Home/Things'},
                 children: []
             }]
         }]

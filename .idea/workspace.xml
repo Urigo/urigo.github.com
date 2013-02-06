@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a2be76c-457d-495e-bdb7-a2455c7b38a2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Dance/Dance.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Map/Soul/Music/Electronic/Electronic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Swimming/Swimming.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Dance/Dance.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Map/Money/Savings/Information/Tools/Tools.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Map/Money/Savings/Expenses_types/Others/Others.html" afterPath="$PROJECT_DIR$/Map/Money/Savings/Expenses_types/Give_others/Give_others.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Health_and_beauty/Beauty/Beauty.html" afterPath="$PROJECT_DIR$/Map/Health_and_beauty/Beauty/Beauty.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Health_and_beauty/Beauty/Teeth/Teeth.html" afterPath="$PROJECT_DIR$/Map/Health_and_beauty/Beauty/Teeth/Teeth.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Fitness.html" afterPath="$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Fitness.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Strength/Strength.html" afterPath="$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Strength/Strength.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Working/Working.html" afterPath="$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Working/Working.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Health_and_beauty/Information/Information.html" afterPath="$PROJECT_DIR$/Map/Health_and_beauty/Information/Information.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Programming.html" afterPath="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Programming.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Usage/Usage.html" afterPath="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Usage/Usage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Professionalism_and_education/Management/Resources/Resources.html" afterPath="$PROJECT_DIR$/Map/Professionalism_and_education/Management/Resources/Resources.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Soul/Values/Collaboration/Collaboration.html" afterPath="$PROJECT_DIR$/Map/Soul/Values/Collaboration/Collaboration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Soul/Values/Openness/Openness.html" afterPath="$PROJECT_DIR$/Map/Soul/Values/Openness/Openness.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Health_and_beauty/Nutrition/Nutrition.html" afterPath="$PROJECT_DIR$/Map/Health_and_beauty/Nutrition/Nutrition.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Home/Home.html" afterPath="$PROJECT_DIR$/Map/Home/Home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Home/Rent/Rent.html" afterPath="$PROJECT_DIR$/Map/Home/Rent/Rent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Home/Things/Things.html" afterPath="$PROJECT_DIR$/Map/Home/Things/Things.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Money/Profit/Profit.html" afterPath="$PROJECT_DIR$/Map/Money/Profit/Profit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Money/Savings/Information/Information.html" afterPath="$PROJECT_DIR$/Map/Money/Savings/Information/Information.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Money/Savings/Pension/Pension.html" afterPath="$PROJECT_DIR$/Map/Money/Savings/Pension/Pension.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tree.js" afterPath="$PROJECT_DIR$/tree.js" />
     </list>
     <ignored path=".idea/workspace.xml" />
@@ -42,97 +41,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Ingredients.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Map/Health_and_beauty/Nutrition/Ingredients/Ingredients.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="21.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Time.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Map/Time/Time.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Openness.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Map/Soul/Values/Openness/Openness.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="34" selection-start="101" selection-end="101" vertical-scroll-proportion="-0.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collaboration.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Map/Soul/Values/Collaboration/Collaboration.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="50" selection-start="429" selection-end="429" vertical-scroll-proportion="-3.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Resources.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Management/Resources/Resources.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="441" column="0" selection-start="41114" selection-end="41114" vertical-scroll-proportion="-13.833333">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Programming.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Programming.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="24" selection-start="850" selection-end="850" vertical-scroll-proportion="-5.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Electronic.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Map/Soul/Music/Electronic/Electronic.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Usage.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Usage/Usage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="6370" selection-end="6370" vertical-scroll-proportion="-11.333333">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#0;n#ol#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#1;n#ol#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#2;n#ol#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="tree.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="806" column="14" selection-start="32823" selection-end="32823" vertical-scroll-proportion="0.8619632">
+            <state line="307" column="90" selection-start="16676" selection-end="16676" vertical-scroll-proportion="0.82758623">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AngularJS.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Javascript/AngularJS/AngularJS.html">
+      <file leaf-file-name="Give_others.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Money/Savings/Expenses_types/Give_others/Give_others.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="0" selection-start="7377" selection-end="7448" vertical-scroll-proportion="-4.375">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Food.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Money/Savings/Expenses_types/Food/Food.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pension.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Money/Savings/Pension/Pension.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="12" selection-start="539" selection-end="539" vertical-scroll-proportion="-10.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Information.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Money/Savings/Information/Information.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="17" selection-start="495" selection-end="495" vertical-scroll-proportion="-12.791667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Profit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Money/Profit/Profit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="12" selection-start="214" selection-end="214" vertical-scroll-proportion="-2.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rent.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Home/Rent/Rent.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="6" selection-start="142" selection-end="142" vertical-scroll-proportion="-3.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Things.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Home/Things/Things.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="164" column="62" selection-start="3666" selection-end="3666" vertical-scroll-proportion="-10.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Travel.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Home/Travel/Travel.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Home/Home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="94" selection-start="262" selection-end="262" vertical-scroll-proportion="-3.125">
               <folding />
             </state>
           </provider>
@@ -151,21 +144,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Map/Soul/Values/Relations/Relations.html" />
-        <option value="$PROJECT_DIR$/Map/Money/Savings/Expenses_types/Mobility/Mobility.html" />
-        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Javascript/AngularJS/AngularJS.html" />
-        <option value="$PROJECT_DIR$/Map/Health_and_beauty/Beauty/Teeth/Teeth.html" />
-        <option value="$PROJECT_DIR$/Map/Health_and_beauty/Beauty/Beauty.html" />
-        <option value="$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Working/Working.html" />
-        <option value="$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Strength/Strength.html" />
-        <option value="$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Fitness.html" />
-        <option value="$PROJECT_DIR$/Map/Health_and_beauty/Information/Information.html" />
-        <option value="$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Dance/Dance.html" />
         <option value="$PROJECT_DIR$/Map/Soul/Values/Openness/Openness.html" />
         <option value="$PROJECT_DIR$/Map/Soul/Values/Collaboration/Collaboration.html" />
         <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Management/Resources/Resources.html" />
         <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Programming.html" />
         <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Usage/Usage.html" />
+        <option value="$PROJECT_DIR$/Map/Health_and_beauty/Beauty/Beauty.html" />
+        <option value="$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Working/Working.html" />
+        <option value="$PROJECT_DIR$/Map/Health_and_beauty/Nutrition/Nutrition.html" />
+        <option value="$PROJECT_DIR$/Map/Home/Rent/Rent.html" />
+        <option value="$PROJECT_DIR$/Map/Home/Home.html" />
+        <option value="$PROJECT_DIR$/Map/Home/Things/Things.html" />
+        <option value="$PROJECT_DIR$/Map/Money/Profit/Profit.html" />
+        <option value="$PROJECT_DIR$/Map/Money/Savings/Pension/Pension.html" />
+        <option value="$PROJECT_DIR$/Map/Money/Savings/Information/Tools/Tools.html" />
+        <option value="$PROJECT_DIR$/Map/Money/Savings/Information/Information.html" />
         <option value="$PROJECT_DIR$/tree.js" />
       </list>
     </option>
@@ -252,7 +245,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Health_and_beauty" />
+              <option name="myItemId" value="Money" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1470,7 +1463,19 @@
       <created>1359967811108</created>
       <updated>1359967811108</updated>
     </task>
-    <option name="localTasksCounter" value="287" />
+    <task id="LOCAL-00287" summary="Add apache">
+      <created>1360184163022</created>
+      <updated>1360184163022</updated>
+    </task>
+    <task id="LOCAL-00288" summary="Beauty">
+      <created>1360184302357</created>
+      <updated>1360184302357</updated>
+    </task>
+    <task id="LOCAL-00289" summary="Beauty">
+      <created>1360184445716</created>
+      <updated>1360184445716</updated>
+    </task>
+    <option name="localTasksCounter" value="290" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1553,7 +1558,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add apache" />
+    <option name="LAST_COMMIT_MESSAGE" value="Beauty" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1566,7 +1571,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Start latest updates" />
     <MESSAGE value="Continue latest updates" />
     <MESSAGE value="Latest updates" />
     <MESSAGE value="Check without google" />
@@ -1591,35 +1595,15 @@
     <MESSAGE value="Add education tree" />
     <MESSAGE value="AngularJS" />
     <MESSAGE value="Add apache" />
+    <MESSAGE value="Beauty" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Running/Running.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.5416667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Strength/Strength.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="135" selection-start="310" selection-end="310" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Working/Working.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="91" selection-start="251" selection-end="251" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Map/Health_and_beauty/Information/Information.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="66" selection-start="0" selection-end="9933" vertical-scroll-proportion="-2.875">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#0;n#!!top" expanded="true" />
@@ -1630,92 +1614,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Health_and_beauty/Longevity/Longevity.html">
+    <entry file="file://$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Working/Working.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="6.1666665">
+        <state line="2" column="122" selection-start="374" selection-end="374" vertical-scroll-proportion="-1.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Health_and_beauty/Nutrition/Nutrition.html">
+    <entry file="file://$PROJECT_DIR$/Map/Health_and_beauty/Longevity/Longevity.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.0416667">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Map/Health_and_beauty/Nutrition/Ingredients/Ingredients.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="21.25">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Time/Time.html">
+    <entry file="file://$PROJECT_DIR$/Map/Health_and_beauty/Nutrition/Nutrition.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="52" selection-start="304" selection-end="304" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Home/Outdoor/Outdoor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="27" selection-start="301" selection-end="301" vertical-scroll-proportion="-6.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Home/Rent/Rent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="142" selection-end="142" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Home/Travel/Travel.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Soul/Values/Openness/Openness.html">
+    <entry file="file://$PROJECT_DIR$/Map/Home/Home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="34" selection-start="101" selection-end="101" vertical-scroll-proportion="-0.625">
+        <state line="5" column="94" selection-start="262" selection-end="262" vertical-scroll-proportion="-3.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Soul/Values/Collaboration/Collaboration.html">
+    <entry file="file://$PROJECT_DIR$/Map/Home/Things/Things.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="50" selection-start="429" selection-end="429" vertical-scroll-proportion="-3.75">
+        <state line="164" column="62" selection-start="3666" selection-end="3666" vertical-scroll-proportion="-10.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Management/Resources/Resources.html">
+    <entry file="file://$PROJECT_DIR$/Map/Money/Profit/Profit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="441" column="0" selection-start="41114" selection-end="41114" vertical-scroll-proportion="-13.833333">
+        <state line="4" column="12" selection-start="214" selection-end="214" vertical-scroll-proportion="-2.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Programming.html">
+    <entry file="file://$PROJECT_DIR$/Map/Money/Savings/Pension/Pension.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="24" selection-start="850" selection-end="850" vertical-scroll-proportion="-5.625">
+        <state line="17" column="12" selection-start="539" selection-end="539" vertical-scroll-proportion="-10.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Soul/Music/Electronic/Electronic.html">
+    <entry file="file://$PROJECT_DIR$/Map/Money/Savings/Information/Information.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="17" selection-start="495" selection-end="495" vertical-scroll-proportion="-12.791667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Money/Savings/Expenses_types/Food/Food.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Javascript/AngularJS/AngularJS.html">
+    <entry file="file://$PROJECT_DIR$/Map/Money/Savings/Expenses_types/Give_others/Give_others.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="0" selection-start="7377" selection-end="7448" vertical-scroll-proportion="-4.375">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Usage/Usage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="6370" selection-end="6370" vertical-scroll-proportion="-11.333333">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#0;n#ol#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ol#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#2;n#ol#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tree.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="806" column="14" selection-start="32823" selection-end="32823" vertical-scroll-proportion="0.8619632">
+        <state line="307" column="90" selection-start="16676" selection-end="16676" vertical-scroll-proportion="0.82758623">
           <folding />
         </state>
       </provider>
