@@ -334,327 +334,7 @@ function init(){
             id: "Time",
             name: "Time",
             data: {'url':'#/?urlParam=Time'},
-            children: [{
-                id: "node266",
-                name: "2.66",
-                data: {},
-                children: [{
-                    id: "node367",
-                    name: "3.67",
-                    data: {},
-                    children: [{
-                        id: "node468",
-                        name: "4.68",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node469",
-                        name: "4.69",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node470",
-                        name: "4.70",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node471",
-                        name: "4.71",
-                        data: {},
-                        children: []
-                    }]
-                }, {
-                    id: "node372",
-                    name: "3.72",
-                    data: {},
-                    children: [{
-                        id: "node473",
-                        name: "4.73",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node474",
-                        name: "4.74",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node475",
-                        name: "4.75",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node476",
-                        name: "4.76",
-                        data: {},
-                        children: []
-                    }]
-                }, {
-                    id: "node377",
-                    name: "3.77",
-                    data: {},
-                    children: [{
-                        id: "node478",
-                        name: "4.78",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node479",
-                        name: "4.79",
-                        data: {},
-                        children: []
-                    }]
-                }, {
-                    id: "node380",
-                    name: "3.80",
-                    data: {},
-                    children: [{
-                        id: "node481",
-                        name: "4.81",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node482",
-                        name: "4.82",
-                        data: {},
-                        children: []
-                    }]
-                }]
-            }, {
-                id: "node283",
-                name: "2.83",
-                data: {},
-                children: [{
-                    id: "node384",
-                    name: "3.84",
-                    data: {},
-                    children: [{
-                        id: "node485",
-                        name: "4.85",
-                        data: {},
-                        children: []
-                    }]
-                }, {
-                    id: "node386",
-                    name: "3.86",
-                    data: {},
-                    children: [{
-                        id: "node487",
-                        name: "4.87",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node488",
-                        name: "4.88",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node489",
-                        name: "4.89",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node490",
-                        name: "4.90",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node491",
-                        name: "4.91",
-                        data: {},
-                        children: []
-                    }]
-                }, {
-                    id: "node392",
-                    name: "3.92",
-                    data: {},
-                    children: [{
-                        id: "node493",
-                        name: "4.93",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node494",
-                        name: "4.94",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node495",
-                        name: "4.95",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node496",
-                        name: "4.96",
-                        data: {},
-                        children: []
-                    }]
-                }, {
-                    id: "node397",
-                    name: "3.97",
-                    data: {},
-                    children: [{
-                        id: "node498",
-                        name: "4.98",
-                        data: {},
-                        children: []
-                    }]
-                }, {
-                    id: "node399",
-                    name: "3.99",
-                    data: {},
-                    children: [{
-                        id: "node4100",
-                        name: "4.100",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4101",
-                        name: "4.101",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4102",
-                        name: "4.102",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4103",
-                        name: "4.103",
-                        data: {},
-                        children: []
-                    }]
-                }]
-            }, {
-                id: "node2104",
-                name: "2.104",
-                data: {},
-                children: [{
-                    id: "node3105",
-                    name: "3.105",
-                    data: {},
-                    children: [{
-                        id: "node4106",
-                        name: "4.106",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4107",
-                        name: "4.107",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4108",
-                        name: "4.108",
-                        data: {},
-                        children: []
-                    }]
-                }]
-            }, {
-                id: "node2109",
-                name: "2.109",
-                data: {},
-                children: [{
-                    id: "node3110",
-                    name: "3.110",
-                    data: {},
-                    children: [{
-                        id: "node4111",
-                        name: "4.111",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4112",
-                        name: "4.112",
-                        data: {},
-                        children: []
-                    }]
-                }, {
-                    id: "node3113",
-                    name: "3.113",
-                    data: {},
-                    children: [{
-                        id: "node4114",
-                        name: "4.114",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4115",
-                        name: "4.115",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4116",
-                        name: "4.116",
-                        data: {},
-                        children: []
-                    }]
-                }, {
-                    id: "node3117",
-                    name: "3.117",
-                    data: {},
-                    children: [{
-                        id: "node4118",
-                        name: "4.118",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4119",
-                        name: "4.119",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4120",
-                        name: "4.120",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4121",
-                        name: "4.121",
-                        data: {},
-                        children: []
-                    }]
-                }, {
-                    id: "node3122",
-                    name: "3.122",
-                    data: {},
-                    children: [{
-                        id: "node4123",
-                        name: "4.123",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4124",
-                        name: "4.124",
-                        data: {},
-                        children: []
-                    }]
-                }]
-            }, {
-                id: "node2125",
-                name: "2.125",
-                data: {},
-                children: [{
-                    id: "node3126",
-                    name: "3.126",
-                    data: {},
-                    children: [{
-                        id: "node4127",
-                        name: "4.127",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4128",
-                        name: "4.128",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4129",
-                        name: "4.129",
-                        data: {},
-                        children: []
-                    }]
-                }]
-            }]
+            children: []
         }, {
             id: "Health_and_beauty",
             name: "Health and beauty",
@@ -743,6 +423,16 @@ function init(){
                     name: "Collaboration",
                     data: {'url':'#/?urlParam=Soul/Values/Collaboration'},
                     children: []
+                },{
+                    id: "Soul/Values/Equality",
+                    name: "Equality",
+                    data: {'url':'#/?urlParam=Soul/Values/Equality'},
+                    children: []
+                },{
+                    id: "Soul/Values/Relations",
+                    name: "Relations",
+                    data: {'url':'#/?urlParam=Soul/Values/Relations'},
+                    children: []
                 }]
             }, {
                 id: "Soul/Music",
@@ -757,6 +447,11 @@ function init(){
                     id: "Soul/Music/Guitar",
                     name: "Guitar",
                     data: {'url':'#/?urlParam=Soul/Values/Music/Guitar'},
+                    children: []
+                }, {
+                    id: "Soul/Music/Electronic",
+                    name: "Electronic",
+                    data: {'url':'#/?urlParam=Soul/Values/Music/Electronic'},
                     children: []
                 }]
             },{
