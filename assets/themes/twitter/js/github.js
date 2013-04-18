@@ -30,6 +30,7 @@
       }
 
       var xhr = new XMLHttpRequest();
+        console.log(xhr);
       if (!raw) {xhr.dataType = "json";}
 
       xhr.open(method, getURL());
