@@ -64,7 +64,7 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
         }
 
         repo.fork(function(err) {
-            /*
+
             onceReady(function() {
                 repo.getRef("heads/"+branch, function(err, commitSha) {
                     // Create temp branch
@@ -76,7 +76,7 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
                     });
                 });
             });
-            */
+
         });
     }
 
