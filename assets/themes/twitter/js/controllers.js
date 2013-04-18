@@ -41,6 +41,11 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
     });
 
     $scope.saveToGit = function(){
+        var user = github.getUser();
+        user.repos(function(err, repos) {
+            console.log(repos);
+        });
+        /*
         var repo = github.getRepo('Urigo', 'Urigo/urigo.github.com');
 
         repo.show(function(err, repo) {
@@ -49,7 +54,6 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
             console.log('repo');
             console.log(repo);
         });
-        /*
         repo.write('master',
             'Urigo/urigo.github.com/blob/master/Map/Time/Time.html',
             'New lalala',
