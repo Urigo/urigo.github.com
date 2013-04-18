@@ -29,7 +29,7 @@
         return url + ((/\?/).test(url) ? "&" : "?") + (new Date()).getTime();
       }
 
-      var xhr = new XMLHttpRequest();
+      var xhr = new window.XMLHttpRequest();
         console.log(xhr);
       if (!raw) {xhr.dataType = "json";}
 
