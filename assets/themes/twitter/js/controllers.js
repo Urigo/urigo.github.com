@@ -49,7 +49,7 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
         user.repos(function(err, repos) {
             console.log(repos);
         });
-        /*
+
         var repo = github.getRepo('Urigo', 'Urigo/urigo.github.com');
 
         repo.show(function(err, repo) {
@@ -65,7 +65,7 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
             function(err) {
                 console.log($scope.yes + ' repo!');
             });
-            */
+
     };
 
     /*
