@@ -35,13 +35,15 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
     };
 
     var github = new Github({
-        username: "pavgreen",
-        password: "Qweasd86",
+        //username: "pavgreen",
+        //password: "Qweasd86",
+        username: "Urigo",
+        password: "puryk456+123",
         auth: "basic"
     });
 
     function forkRepo(user, reponame, branch, cb) {
-        var newUser = "pavgreen";
+        var newUser = "Urigo";
         var repo = github.getRepo(user, reponame);
         var forkedRepo = github.getRepo(newUser, reponame);
 
