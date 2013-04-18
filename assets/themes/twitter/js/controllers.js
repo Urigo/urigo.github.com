@@ -41,12 +41,9 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
     });
 
     function forkRepo(user, reponame, branch, cb) {
-        user = "Urigo";
-        reponame = "urigo.github.com";
-        branch = "master";
         var newUser = "pavgreen";
-        var repo = getRepo(user, reponame);
-        var forkedRepo = getRepo(newUser, reponame);
+        var repo = github.getRepo(user, reponame);
+        var forkedRepo = github.getRepo(newUser, reponame);
 
         // Wait until contents are ready.
 
@@ -75,6 +72,9 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
 
     $scope.saveToGit = function(){
 
+        var user = "Urigo";
+        var repo = "urigo.github.com";
+        var branch = "master";
         forkRepo(user, repo, branch, function(err, info) {
             console.log(info);
         });
