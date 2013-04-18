@@ -42,6 +42,7 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
 
     $scope.saveToGit = function(){
         var user = github.getUser();
+        consoe.log(user);
         user.repos(function(err, repos) {
             console.log(repos);
         });
