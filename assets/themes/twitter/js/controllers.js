@@ -59,7 +59,7 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
             console.log(repo);
         });
         repo.write('master',
-            'urigo.github.com/blob/master/Map/Time/Time.html',
+            'Map/Time/Time.html',
             'New lalala',
             'Testing api',
             function(err) {
