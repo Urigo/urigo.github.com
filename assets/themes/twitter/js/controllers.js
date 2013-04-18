@@ -50,7 +50,7 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
             console.log(repos);
         });
 
-        var repo = github.getRepo('Urigo', 'Urigo/urigo.github.com');
+        var repo = github.getRepo('Urigo', 'urigo.github.com');
 
         repo.show(function(err, repo) {
             console.log('error');
@@ -59,7 +59,7 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
             console.log(repo);
         });
         repo.write('master',
-            'Urigo/urigo.github.com/blob/master/Map/Time/Time.html',
+            'urigo.github.com/blob/master/Map/Time/Time.html',
             'New lalala',
             'Testing api',
             function(err) {
