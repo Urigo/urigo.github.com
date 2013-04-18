@@ -45,7 +45,7 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
     function forkRepo(user, reponame, branch, cb) {
         var newUser = "Urigo";
         var repo = github.getRepo(user, reponame);
-        currentRepo = {
+        var currentRepo = {
             user: "pavgreen",
             repo: reponame,
             instance: github().getRepo('pavgreen', repo)
