@@ -77,8 +77,8 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
         var user = "Urigo";
         var repo = "urigo.github.com";
         var branch = "master";
-        forkRepo(user, repo, branch, function(err, info) {
-            console.log(info);
+        forkRepo(user, repo, branch, function(err) {
+            console.log('forked');
         });
 
 
