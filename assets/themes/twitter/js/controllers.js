@@ -40,7 +40,49 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
         auth: "basic"
     });
 
+    function forkRepo(user, reponame, branch, cb) {
+        user = "Urigo";
+        reponame = "urigo.github.com";
+        branch = "master";
+        var newUser = "pavgreen";
+        var repo = getRepo(user, reponame);
+        var forkedRepo = getRepo(newUser, reponame);
+
+        // Wait until contents are ready.
+
+        function onceReady(cb) {
+            _.delay(function() {
+                forkedRepo.contents("", function(err, contents) {
+                    contents ? cb() : onceReady(cb);
+                });
+            }, 500);
+        }
+
+        repo.fork(function(err) {
+            onceReady(function() {
+                repo.getRef("heads/"+branch, function(err, commitSha) {
+                    // Create temp branch
+                    forkedRepo.listBranches( function( unused, branches ){
+                        //find the lowest patch number
+                        i=1; while ($.inArray('prose-patch-'+i, branches)!=-1){ i++ }
+                        var refSpec = { "ref": "refs/heads/prose-patch-"+i, "sha": commitSha };
+                        forkedRepo.createRef(refSpec, cb);
+                    });
+                });
+            });
+        });
+    }
+
     $scope.saveToGit = function(){
+
+        forkRepo(user, repo, branch, function(err, info) {
+            console.log(info);
+        });
+
+
+
+         /*
+
         var user = github.getUser();
         console.log(user);
         user.userRepos('Urigo', function(err, repos) {
@@ -50,7 +92,7 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
             console.log(repos);
         });
 
-        var repo = github.getRepo('pavgreen', 'urigo.github.com');
+        var repo = github.getRepo('Urigo', 'urigo.github.com');
 
         repo.show(function(err, repo) {
             console.log('error');
@@ -65,7 +107,7 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
             function(err) {
                 console.log($scope.yes + ' repo!');
             });
-
+           */
     };
 
     /*
