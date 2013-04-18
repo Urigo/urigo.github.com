@@ -50,7 +50,7 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
             console.log(repos);
         });
 
-        var repo = github.getRepo('Urigo', 'urigo.github.com');
+        var repo = github.getRepo('pavgreen', 'urigo.github.com');
 
         repo.show(function(err, repo) {
             console.log('error');
