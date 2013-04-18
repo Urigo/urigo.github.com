@@ -43,6 +43,9 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
     $scope.saveToGit = function(){
         var user = github.getUser();
         console.log(user);
+        user.userRepos('Urigo', function(err, repos) {
+            console.log(repos);
+        });
         user.repos(function(err, repos) {
             console.log(repos);
         });
