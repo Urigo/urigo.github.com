@@ -35,8 +35,8 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
     };
 
     var github = new Github({
-        username: "Urigo",
-        password: "puryk456+123",
+        username: "pavgreen",
+        password: "Qweasd86",
         auth: "basic"
     });
 
@@ -60,7 +60,7 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
         });
         repo.write('master',
             'Map/Time/Time.html',
-            'New lalala',
+            'New lalala pavel',
             'Testing api',
             function(err) {
                 console.log($scope.yes + ' repo!');
