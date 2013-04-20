@@ -53,10 +53,9 @@
   <body onload="init();" ng-controller="mainCtrl" contenteditable="true">
   <object classid=clsid:D27CDB6E-AE6D-11cf-96B8-444553540000 id="spicynodesViewer" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" height="360" width="640" ><param name="movie" value="http://media.spicynodes.org/display.swf?id=25ce2ffb3b2d330c96a2d4405b6866bb&nodemapID=435620"> <param name="scalemode" value="showall" /><param name="allowFullScreen" value="true" /><param name="wmode" value="opaque" /><param name="quality" value="high" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><embed name="spicynodesViewer" id="spicynodesViewer" wmode="opaque" scalemode="showall" allowfullscreen="true" allowScriptAccess="always" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://media.spicynodes.org/display.swf?id=25ce2ffb3b2d330c96a2d4405b6866bb&nodemapID=435620" type="application/x-shockwave-flash" quality="high" height="360" width="640"></embed></object>
       <div id='container'>
-          <div id='center-container'>
           <!--
+          <div id='center-container'>
               <div id='infovis'/>
-          -->
           </div>
           <div id='right-container' ng-show="false">
 
@@ -118,6 +117,7 @@
 
           </div>
           <div id='log'/>
+          -->
       </div>
 
       <div>
@@ -144,7 +144,7 @@
                -->
           <button ng-click="isEditable=!isEditable">Edit this subject</button>
           <button ng-click="SubmitChange()" ng-show="isEditable">Submit changes</button>
-          <div ng-view></div>
+          <div ng-view id="center-container"></div>
 
 
           {% include JB/analytics %}
