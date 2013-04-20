@@ -7,11 +7,11 @@ function mainCtrl($scope, $routeParams)
         var x = $routeParams.urlParam.lastIndexOf('/');
         var fileName = $routeParams.urlParam.substr(x+1);
         var fileLocation = '/Map/'+$routeParams.urlParam+'/'+fileName+'.html';
+        var newContent = $.('.content').html();
 
         var link = "mailto:uri.goldshtein@gmail.com"
                 + "&subject=" + "New content for "+fileLocation
-                + "&body=" + $.('.content').html()
-            ;
+                + "&body=" + newContent;
 
         window.location.href = link;
     };
