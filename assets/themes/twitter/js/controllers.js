@@ -9,7 +9,7 @@ function mainCtrl($scope, $routeParams)
         var fileLocation = '/Map/'+$routeParams.urlParam+'/'+fileName+'.html';
 
         var link = "mailto:uri.goldshtein@gmail.com"
-                + "&subject=" + escape("New content for "+fileLocation)
+                + "&subject=" + "New content for "+fileLocation
                 + "&body=" + $.('.content').html()
             ;
 
