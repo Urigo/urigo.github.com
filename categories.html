@@ -1,4 +1,7 @@
-<p class="content" ng-include src="templateUrl" onload="afterPartialLoaded()" style="text-align: left;"></p>
+<p class="content" ng-include src="templateUrl"
+   onload="afterPartialLoaded()"
+   contenteditable={{$parent.isEditable}}
+   style="text-align: left;"></p>
 
 <div id="disqus" class="disqus">
     <h2>Don't just read! tell us why we are wrong!!</h2>
