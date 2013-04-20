@@ -144,7 +144,9 @@
                -->
           <button ng-click="isEditable=!isEditable" ng-show="!isEditable">Edit this subject</button>
           <button ng-click="SubmitChange()" ng-show="isEditable">Submit changes</button>
-          <div ng-view id="main-view"></div>
+          <div id="main-view-wrapper">
+            <div ng-view id="main-view"></div>
+          </div>
 
 
           {% include JB/analytics %}
