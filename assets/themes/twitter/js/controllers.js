@@ -1,12 +1,10 @@
 function mainCtrl($scope)
 {
     $scope.locale = 'en';
+    $scope.isEditable = false;
 }
 
 function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams, $http) {
-
-    $scope.isEditable = false;
-
     if ($routeParams.locale != undefined)
         $scope.$parent.locale = $routeParams.locale;
 
