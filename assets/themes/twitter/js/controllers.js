@@ -8,7 +8,7 @@ function mainCtrl($scope, $routeParams)
         var fileName = $routeParams.urlParam.substr(x+1);
         var fileLocation = '/Map/'+$routeParams.urlParam+'/'+fileName+'.html';
         var newContent = document.getElementById('template-view');
-        alert(newContent);
+        alert(newContent.htmlText);
 
         var link = "mailto:uri.goldshtein@gmail.com"
                 + "?subject=" + "New content for "+fileLocation
