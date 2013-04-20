@@ -142,7 +142,7 @@
               עברית</button>
           <button id="US" ng-click="locale='en'" ng-show="locale!='en'">English</button>
                -->
-          <button ng-click="isEditable=!isEditable">Edit this subject</button>
+          <button ng-click="isEditable=!isEditable" ng-show="!isEditable">Edit this subject</button>
           <button ng-click="SubmitChange()" ng-show="isEditable">Submit changes</button>
           <div ng-view id="main-view"></div>
 
