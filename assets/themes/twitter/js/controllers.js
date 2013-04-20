@@ -1,7 +1,20 @@
-function mainCtrl($scope)
+function mainCtrl($scope, $routeParams)
 {
     $scope.locale = 'en';
     $scope.isEditable = false;
+
+    $scope.SubmitChange = function(){
+        var x = $routeParams.urlParam.lastIndexOf('/');
+        var fileName = $routeParams.urlParam.substr(x+1);
+        var fileLocation = '/Map/'+$routeParams.urlParam+'/'+fileName+'.html';
+
+        var link = "mailto:uri.goldshtein@gmail.com"
+                + "&subject=" + escape("New content for "+fileLocation)
+                + "&body=" + escape(document.getElementsByClassName('content').value)
+            ;
+
+        window.location.href = link;
+    };
 }
 
 function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams, $http) {
