@@ -10,7 +10,7 @@ function mainCtrl($scope, $routeParams)
         var newContent = $('.content').html();
 
         var link = "mailto:uri.goldshtein@gmail.com"
-                + "&subject=" + "New content for "+fileLocation
+                + "?subject=" + "New content for "+fileLocation
                 + "&body=" + newContent;
 
         window.location.href = link;
