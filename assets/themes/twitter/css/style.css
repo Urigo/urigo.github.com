@@ -4,15 +4,15 @@ html, body {
 }
 
 #header {
-    background:url("../images/background_top.jpg");
+    background:url("../images/background_top.jpg") no-repeat center;
 }
 
 #footer {
-    background:url("../images/background_bottom.jpg");
+    background:url("../images/background_bottom.jpg")  no-repeat center;
 }
 
 #main_content {
-    background: url("../images/background_middle.jpg") repeat top;
+    background: url("../images/background_middle.jpg") repeat-y center;
 }
 
 .navbar {
