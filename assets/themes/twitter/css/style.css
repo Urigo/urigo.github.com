@@ -2,6 +2,10 @@
 html, body {
   background: #D1DCA9 url("../images/Brown-bg.jpg") repeat top left;
 }
+
+#header {
+    background:url("../images/background_top.jpg");
+}
 .navbar {
   margin-bottom: 0;
 }
