@@ -11,6 +11,10 @@ html, body {
     background:url("../images/background_bottom.jpg");
 }
 
+#main_content {
+    background: url("../images/background_middle.jpg") repeat top;
+}
+
 .navbar {
   margin-bottom: 0;
 }
