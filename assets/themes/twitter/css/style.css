@@ -6,6 +6,11 @@ html, body {
 #header {
     background:url("../images/background_top.jpg");
 }
+
+#footer {
+    background:url("../images/background_bottom.jpg");
+}
+
 .navbar {
   margin-bottom: 0;
 }
