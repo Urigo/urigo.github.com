@@ -6,6 +6,10 @@ html, body {
     background: #2c4762 url("../images/blue_background.png") top repeat-x;
 }
 
+#header {
+    margin: 20px;
+}
+
 #main_content {
     background: rgb(38, 62, 85);
     border-radius: 15px;
