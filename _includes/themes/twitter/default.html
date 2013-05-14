@@ -54,12 +54,15 @@
 <body onload="init();" ng-controller="mainCtrl" contenteditable="true">
     <div class="container-fluid">
         <div class="row-fluid">
-            <div class="span12">
+            <div class="span2"></div>
+            <div class="span8">
                 <iframe width="960" height="400" frameborder="0" src="http://www.mindmeister.com/maps/public_map_shell/131388810/uri?width=960&height=400&z=1.0&no_share=1&no_logo=1&scrollbars=1" scrolling="no" style="overflow:hidden">Your browser is not able to display frames.  Please visit the <a href="http://www.mindmeister.com/131388810/uri" target="_blank">mind map: Uri</a> on <a href="http://www.mindmeister.com" target="_blank">Mind Mapping - MindMeister</a>.</iframe>
             </div>
+            <div class="span2"></div>
         </div>
         <div id="main_content" class="row-fluid">
-            <div class="span12">
+            <div class="span2"></div>
+            <div class="span8">
                 <button ng-click="isEditable=!isEditable" ng-show="!isEditable">Edit this subject</button>
                 <button ng-click="SubmitChange()" ng-show="isEditable">Submit changes</button>
                 <div id="main-view-wrapper">
@@ -67,14 +70,17 @@
                 </div>
                 {% include JB/analytics %}
             </div>
+            <div class="span2"></div>
         </div>
         <div id="footer" class="row-fluid">
-            <div class="span12">
+            <div class="span2"></div>
+            <div class="span8">
                 <div id="disqus" class="disqus">
                     <h2>Don't just read! tell us why we are wrong!!</h2>
                     <div id="disqus_thread" class="content-panel-content"></div>
                 </div>
             </div>
+            <div class="span2"></div>
         </div>
     </div>
 </body>
