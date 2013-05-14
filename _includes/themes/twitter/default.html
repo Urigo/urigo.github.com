@@ -67,6 +67,9 @@
                 <button ng-click="isEditable=!isEditable" ng-show="!isEditable">Edit this subject</button>
                 <button ng-click="SubmitChange()" ng-show="isEditable">Submit changes</button>
                 -->
+                <button id="israel" ng-click="locale='he'" ng-show="locale!='he'">
+                    עברית</button>
+                <button id="US" ng-click="locale='en'" ng-show="locale!='en'">English</button>
                 <div id="main-view-wrapper">
                     <div ng-view id="main-view"></div>
                 </div>
