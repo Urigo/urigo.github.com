@@ -36,3 +36,7 @@ html, body {
     border-radius: 15px;
     padding: 20px;
 }
+
+.language_button {
+    margin-bottom: 5px;
+}
