@@ -13,7 +13,8 @@ html, body {
 
 #main_content {
     background: rgb(38, 62, 85);
-    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     padding-top: 14px;
 }
 
@@ -25,7 +26,8 @@ html, body {
 
 #footer {
     background: rgb(38, 62, 85);
-    border-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     padding-top: 14px;
 }
 
