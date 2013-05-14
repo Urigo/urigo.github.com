@@ -10,3 +10,9 @@ html, body {
     background: rgb(38, 62, 85);
     border-radius: 15px;
 }
+
+.content {
+    background: rgb(243, 244, 247);
+    border-radius: 15px;
+    padding: 20px;
+}
