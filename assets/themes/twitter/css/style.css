@@ -1,3 +1,7 @@
 html, body {
     background: #2c4762 url("../images/blue_background.png") top repeat-x;
 }
+
+.container-fluid {
+    background: #2c4762 url("../images/blue_background.png") top repeat-x;
+}
