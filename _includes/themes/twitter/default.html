@@ -11,6 +11,8 @@
     <![endif]-->
 
     <!-- Le styles -->
+    <link href="{{ ASSET_PATH }}/css/bootstrap.min.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="{{ ASSET_PATH }}/css/bootstrap-responsive.min.css?body=1" rel="stylesheet" type="text/css" media="all">
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
     <link href="{{ ASSET_PATH }}/css/tree.css?body=1" rel="stylesheet" type="text/css" media="all">
     <link href="{{ ASSET_PATH }}/css/Spacetree.css?body=1" rel="stylesheet" type="text/css" media="all">
@@ -50,110 +52,29 @@
     </script>
 </head>
 <body onload="init();" ng-controller="mainCtrl" contenteditable="true">
-    <div id="header">
-        <object classid=clsid:D27CDB6E-AE6D-11cf-96B8-444553540000 id="spicynodesViewer" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" height="360" width="640" ><param name="movie" value="http://media.spicynodes.org/display.swf?id=25ce2ffb3b2d330c96a2d4405b6866bb&nodemapID=435620"> <param name="scalemode" value="showall" /><param name="allowFullScreen" value="true" /><param name="wmode" value="opaque" /><param name="quality" value="high" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><embed name="spicynodesViewer" id="spicynodesViewer" wmode="opaque" scalemode="showall" allowfullscreen="true" allowScriptAccess="always" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://media.spicynodes.org/display.swf?id=25ce2ffb3b2d330c96a2d4405b6866bb&nodemapID=435620" type="application/x-shockwave-flash" quality="high" height="360" width="640"></embed></object>
-    </div>
-    <!--
-    <div id='container'>
-    <div id='center-container'>
-        <div id='infovis'/>
-    </div>
-    <div id='right-container' ng-show="false">
-
-        <h4>Tree Orientation</h4>
-        <table>
-            <tr>
-                <td>
-                    <label for='r-top'>Top </label>
-                </td>
-                <td>
-                    <input checked='checked' id='r-top' name='orientation' type='radio' value='top'/>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for='r-left'>Left </label>
-                </td>
-                <td>
-                    <input id='r-left' name='orientation' type='radio' value='left'/>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for='r-bottom'>Bottom </label>
-                </td>
-                <td>
-                    <input id='r-bottom' name='orientation' type='radio' value='bottom'/>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for='r-right'>Right </label>
-                </td>
-                <td>
-                    <input id='r-right' name='orientation' type='radio' value='right'/>
-                </td>
-            </tr>
-        </table>
-
-        <h4>Selection Mode</h4>
-        <table>
-            <tr>
-                <td>
-                    <label for='s-normal'>Normal </label>
-                </td>
-                <td>
-                    <input checked='checked' id='s-normal' name='selection' type='radio' value='normal'/>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for='s-root'>Set as Root </label>
-                </td>
-                <td>
-                    <input id='s-root' name='selection' type='radio' value='root'/>
-                </td>
-            </tr>
-        </table>
-
-    </div>
-    <div id='log'/>
-    </div>
-    -->
-
-    <div id="main_content">
-        <!--
-        pages
-
-        <div id="posts">
-            {% for page in site.pages %}
-            '{{ page.url }}',
-            {% endfor %}
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span12">
+                <iframe width="960" height="400" frameborder="0" src="http://www.mindmeister.com/maps/public_map_shell/131388810/uri?width=960&height=400&z=1.0&no_share=1&no_logo=1&scrollbars=1" scrolling="no" style="overflow:hidden">Your browser is not able to display frames.  Please visit the <a href="http://www.mindmeister.com/131388810/uri" target="_blank">mind map: Uri</a> on <a href="http://www.mindmeister.com" target="_blank">Mind Mapping - MindMeister</a>.</iframe>
+            </div>
         </div>
-
-        {% for page in site.pages %}
-        <a href="#{{ page.url }}">{{ page.title }}</a>
-        {% endfor %}
-
-        postsId - is it?
-        {% for post in site.posts %}
-        <a href="#{{ post.url }}">{{ post.title }}</a>
-        {% endfor %}
-        <button id="israel" ng-click="locale='he'" ng-show="locale!='he'">
-            עברית</button>
-        <button id="US" ng-click="locale='en'" ng-show="locale!='en'">English</button>
-             -->
-        <button ng-click="isEditable=!isEditable" ng-show="!isEditable">Edit this subject</button>
-        <button ng-click="SubmitChange()" ng-show="isEditable">Submit changes</button>
-        <div id="main-view-wrapper">
-            <div ng-view id="main-view"></div>
+        <div id="main_content" class="row-fluid">
+            <div class="span12">
+                <button ng-click="isEditable=!isEditable" ng-show="!isEditable">Edit this subject</button>
+                <button ng-click="SubmitChange()" ng-show="isEditable">Submit changes</button>
+                <div id="main-view-wrapper">
+                    <div ng-view id="main-view"></div>
+                </div>
+                {% include JB/analytics %}
+            </div>
         </div>
-        {% include JB/analytics %}
-    </div>
-    <div id="footer">
-        <div id="disqus" class="disqus">
-            <h2>Don't just read! tell us why we are wrong!!</h2>
-            <div id="disqus_thread" class="content-panel-content"></div>
+        <div id="footer" class="row-fluid">
+            <div class="span12">
+                <div id="disqus" class="disqus">
+                    <h2>Don't just read! tell us why we are wrong!!</h2>
+                    <div id="disqus_thread" class="content-panel-content"></div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
