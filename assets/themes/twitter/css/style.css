@@ -28,3 +28,9 @@ html, body {
     border-radius: 15px;
     padding-top: 14px;
 }
+
+#comments {
+    background: rgb(243, 244, 247);
+    border-radius: 15px;
+    padding: 20px;
+}
