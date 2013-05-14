@@ -7,5 +7,6 @@ html, body {
 }
 
 #main_content {
-    background: #2c4762;
+    background: rgb(38, 62, 85);
+    border-radius: 15px;
 }
