@@ -5,3 +5,7 @@ html, body {
 .container-fluid {
     background: #2c4762 url("../images/blue_background.png") top repeat-x;
 }
+
+#main_content {
+    background: #2c4762;
+}
