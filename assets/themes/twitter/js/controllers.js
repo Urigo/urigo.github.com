@@ -39,6 +39,8 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
     else{
         var x = $routeParams.urlParam.lastIndexOf('/');
         var fileName = $routeParams.urlParam.substr(x+1);
+        fileName = fileName + "_" + $scope.$parent.locale;
+        // TODO: Insert code for specific file by locale
         $scope.templateUrl = '/Map/'+$routeParams.urlParam+'/'+fileName+'.html';
     }
 
