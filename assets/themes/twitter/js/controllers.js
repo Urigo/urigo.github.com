@@ -42,6 +42,7 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
         fileName = fileName + "_" + $scope.$parent.locale;
         // TODO: Insert code for specific file by locale
         $scope.templateUrl = '/Map/'+$routeParams.urlParam+'/'+fileName+'.html';
+        console.log($scope.templateUrl);
     }
 
     $scope.afterPartialLoaded = function() {
