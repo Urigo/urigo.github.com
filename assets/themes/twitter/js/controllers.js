@@ -15,35 +15,48 @@ function mainCtrl($scope, $routeParams)
 
         window.location.href = link;
     };
+
+    $scope.changeLanguage = function(){
+        $scope.$broadcast('changeLanguage');
+    };
 }
 
 function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams, $http) {
-    if ($routeParams.locale != undefined)
-        $scope.$parent.locale = $routeParams.locale;
 
-    if ($routeParams.urlParam == undefined ||
-        $routeParams.urlParam == '')
-    {
-        $scope.templateUrl = '/Map/Map.html';
+    $scope.loadPage = function(){
+        if ($routeParams.locale != undefined)
+            $scope.$parent.locale = $routeParams.locale;
 
-        $.ajax({
-            url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent('https://github.com/Urigo/urigo.github.com/commits/master.atom'),
-            dataType: 'json',
-            success: function(data) {
-                $scope.latestUpdates = data.responseData.feed;
-                $scope.$apply();
-            }
-        });
-        console.log($scope.latestUpdates);
-    }
-    else{
-        var x = $routeParams.urlParam.lastIndexOf('/');
-        var fileName = $routeParams.urlParam.substr(x+1);
-        fileName = fileName + "_" + $scope.$parent.locale;
-        // TODO: Insert code for specific file by locale
-        $scope.templateUrl = '/Map/'+$routeParams.urlParam+'/'+fileName+'.html';
-        console.log($scope.templateUrl);
-    }
+        if ($routeParams.urlParam == undefined ||
+            $routeParams.urlParam == '')
+        {
+            $scope.templateUrl = '/Map/Map.html';
+
+            $.ajax({
+                url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent('https://github.com/Urigo/urigo.github.com/commits/master.atom'),
+                dataType: 'json',
+                success: function(data) {
+                    $scope.latestUpdates = data.responseData.feed;
+                    $scope.$apply();
+                }
+            });
+            console.log($scope.latestUpdates);
+        }
+        else{
+            var x = $routeParams.urlParam.lastIndexOf('/');
+            var fileName = $routeParams.urlParam.substr(x+1);
+            fileName = fileName + "_" + $scope.$parent.locale;
+            // TODO: Insert code for specific file by locale
+            $scope.templateUrl = '/Map/'+$routeParams.urlParam+'/'+fileName+'.html';
+            console.log($scope.templateUrl);
+        }
+    };
+
+    $scope.loadPage();
+
+    $scope.$on('changeLanguage', function() {
+        $scope.loadPage();
+    });
 
     $scope.afterPartialLoaded = function() {
         var currentPageId = $scope.templateUrl;
