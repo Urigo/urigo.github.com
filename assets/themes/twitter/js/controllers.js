@@ -55,6 +55,7 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
     $scope.loadPage();
 
     $scope.$on('changeLanguage', function() {
+        console.log('changeLanguage');
         $scope.loadPage();
     });
 
