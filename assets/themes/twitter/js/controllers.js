@@ -16,7 +16,8 @@ function mainCtrl($scope, $routeParams)
         window.location.href = link;
     };
 
-    $scope.changeLanguage = function(){
+    $scope.changeLanguage = function(lang){
+        $scope.locale = lang;
         $scope.$broadcast('changeLanguage');
     };
 }
@@ -45,6 +46,7 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
         else{
             var x = $routeParams.urlParam.lastIndexOf('/');
             var fileName = $routeParams.urlParam.substr(x+1);
+            console.log($scope.$parent.locale);
             fileName = fileName + "_" + $scope.$parent.locale;
             // TODO: Insert code for specific file by locale
             $scope.templateUrl = '/Map/'+$routeParams.urlParam+'/'+fileName+'.html';
