@@ -42,6 +42,9 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
                 }
             });
             console.log($scope.latestUpdates);
+            var iframe = document.getElementById('mindmap-frame');
+            iframe.src = "http://www.mindmeister.com/maps/public_map_shell/279195046/uri?width=800&height=300&z=1.0&no_share=1&no_logo=1&scrollbars=1&link_target=parent";
+            //document.getElementById('mindmap-frame').contentWindow.location.reload();
         }
         else{
             var x = $routeParams.urlParam.lastIndexOf('/');
@@ -51,6 +54,9 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
             // TODO: Insert code for specific file by locale
             $scope.templateUrl = '/Map/'+$routeParams.urlParam+'/'+fileName+'.html';
             console.log($scope.templateUrl);
+
+            var iframe = document.getElementById('mindmap-frame');
+            iframe.src = "http://www.mindmeister.com/maps/public_map_shell/279195046/uri?width=800&height=300&z=1.0&no_share=1&no_logo=1&scrollbars=1&link_target=parent";
         }
     };
 
