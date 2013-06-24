@@ -28,6 +28,15 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
         if ($routeParams.locale != undefined)
             $scope.$parent.locale = $routeParams.locale;
 
+        var node_id = "";
+        if ($routeParams.node_id != undefined)
+            node_id = $routeParams.node_id;
+        else
+            node_id = "131388810";
+
+        var iframe = document.getElementById('mindmap-frame');
+        var src = "http://www.mindmeister.com/maps/public_map_shell/" + node_id + "/uri?width=800&height=300&z=1.0&no_share=1&no_logo=1&scrollbars=1&link_target=parent";
+
         if ($routeParams.urlParam == undefined ||
             $routeParams.urlParam == '')
         {
@@ -42,9 +51,8 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
                 }
             });
             console.log($scope.latestUpdates);
-            var iframe = document.getElementById('mindmap-frame');
-            iframe.src = "http://www.mindmeister.com/maps/public_map_shell/279195046/uri?width=800&height=300&z=1.0&no_share=1&no_logo=1&scrollbars=1&link_target=parent";
-            //document.getElementById('mindmap-frame').contentWindow.location.reload();
+
+            iframe.src = src;
         }
         else{
             var x = $routeParams.urlParam.lastIndexOf('/');
@@ -55,8 +63,7 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
             $scope.templateUrl = '/Map/'+$routeParams.urlParam+'/'+fileName+'.html';
             console.log($scope.templateUrl);
 
-            var iframe = document.getElementById('mindmap-frame');
-            iframe.src = "http://www.mindmeister.com/maps/public_map_shell/279195046/uri?width=800&height=300&z=1.0&no_share=1&no_logo=1&scrollbars=1&link_target=parent";
+            iframe.src = src;
         }
     };
 
