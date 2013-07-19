@@ -4,6 +4,11 @@
 <button class="btn btn-primary language_button" id="US" ng-click="changeLanguage('en')" ng-show="locale!='en'">
     Switch to English
 </button>
+<a href="" class="btn btn-primary">
+    https://github.com/Urigo/urigo.github.com/edit/master/Map/Professionalism_and_education/Professionalism_and_education_en.html
+    {{ templateUrl }}
+</a>
+    Improve this page
 <p class="content" ng-include src="templateUrl"
    onload="afterPartialLoaded()"
    contenteditable={{$parent.isEditable}}
