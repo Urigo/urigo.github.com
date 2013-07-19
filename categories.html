@@ -4,7 +4,7 @@
 <button class="btn btn-primary language_button" id="US" ng-click="changeLanguage('en')" ng-show="locale!='en'">
     Switch to English
 </button>
-<a href="https://github.com/Urigo/urigo.github.com/edit/master{{ templateUrl }}" class="btn btn-primary">
+<a ng-href="https://github.com/Urigo/urigo.github.com/edit/master{{ templateUrl }}" class="btn btn-primary">
     Improve this page
 </a>
 <p class="content" ng-include src="templateUrl"
