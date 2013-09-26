@@ -22,6 +22,13 @@ html, body {
     background: rgb(243, 244, 247);
     border-radius: 15px;
     padding: 20px;
+    font: italic 700 68px/1 "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 68px;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 1;
 }
 
 #footer {
