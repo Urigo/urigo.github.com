@@ -48,45 +48,48 @@
     -->
     <iframe id="mindmap-frame" width="1366" height="300" frameborder="0" src="http://www.mindmeister.com/maps/public_map_shell/131388810/uri?width=800&height=300&z=auto&no_share=1&no_logo=1" scrolling="no" style="overflow:hidden">Your browser is not able to display frames.  Please visit the <a href="http://www.mindmeister.com/131388810/uri" target="_blank">mind map: You</a> on <a href="http://www.mindmeister.com" target="_blank">Mind Mapping - MindMeister</a>.</iframe>
   </div>
-  <div id="main_content" class="row">
-    <div class="col-md-3">
-      <a href="http://www.mindmeister.com/131388810" target="_blank" class="btn btn-primary">
-        Improve this map
-      </a>
-      <button class="btn btn-primary language_button" id="israel" ng-click="changeLanguage('he')" ng-show="locale!='he'">
-        עבור לעברית
-      </button>
-      <button class="btn btn-primary language_button" id="US" ng-click="changeLanguage('en')" ng-show="locale!='en'">
-        Switch to English
-      </button>
-      <a ng-href="https://github.com/Urigo/urigo.github.com/edit/master{{ templateUrl }}"
-         class="btn btn-primary"
-         target="_blank">
-        Improve this page
-      </a>
-    </div>
-    <div class="col-md-9">
+  <div class="container">
 
-      <!--
-      <button ng-click="isEditable=!isEditable" ng-show="!isEditable">Edit this subject</button>
-      <button ng-click="SubmitChange()" ng-show="isEditable">Submit changes</button>
-      -->
+    <div id="main_content" class="row">
+      <div class="col-md-3">
+        <a href="http://www.mindmeister.com/131388810" target="_blank" class="btn btn-primary">
+          Improve this map
+        </a>
+        <button class="btn btn-primary language_button" id="israel" ng-click="changeLanguage('he')" ng-show="locale!='he'">
+          עבור לעברית
+        </button>
+        <button class="btn btn-primary language_button" id="US" ng-click="changeLanguage('en')" ng-show="locale!='en'">
+          Switch to English
+        </button>
+        <a ng-href="https://github.com/Urigo/urigo.github.com/edit/master{{ templateUrl }}"
+           class="btn btn-primary"
+           target="_blank">
+          Improve this page
+        </a>
+      </div>
+      <div class="col-md-9">
 
-      <div id="main-view-wrapper">
-        <div ng-view id="main-view"></div>
+        <!--
+        <button ng-click="isEditable=!isEditable" ng-show="!isEditable">Edit this subject</button>
+        <button ng-click="SubmitChange()" ng-show="isEditable">Submit changes</button>
+        -->
+
+        <div id="main-view-wrapper">
+          <div ng-view id="main-view"></div>
+        </div>
       </div>
+      <div class="col-md-3"></div>
     </div>
-    <div class="col-md-3"></div>
-  </div>
-  <div class="row" id="footer">
-    <div class="col-md-3"></div>
-    <div class="col-md-9" id="comments">
-      <div id="disqus" class="disqus">
-        <h2>Don't just read! tell us why we are wrong!!</h2>
-        <div id="disqus_thread" class="content-panel-content"></div>
+    <div class="row" id="footer">
+      <div class="col-md-3"></div>
+      <div class="col-md-9" id="comments">
+        <div id="disqus" class="disqus">
+          <h2>Don't just read! tell us why we are wrong!!</h2>
+          <div id="disqus_thread" class="content-panel-content"></div>
+        </div>
       </div>
+      <div class="col-md-3"></div>
     </div>
-    <div class="col-md-3"></div>
   </div>
 </div>
 </body>
