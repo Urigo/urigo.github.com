@@ -21,15 +21,7 @@ function mainCtrl($scope, $routeParams)
     $scope.$broadcast('changeLanguage');
   };
 
-  var height = 200;
-  var intervalReference = window.setInterval(function() {
-    var elem = document.getElementById('chat');
-    elem.scrollTop = height;
-    if (elem.scrollHeight < height) {
-      clearInterval(intervalReference);
-    }
-    height += 2;
-  }, 50);
+  $('html, body').animate({scrollTop:200}, 'slow');
 }
 
 function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams, $http) {
