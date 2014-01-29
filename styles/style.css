@@ -1,0 +1,49 @@
+html, body {
+    background: #2c4762 url("../images/blue_background.png") top repeat-x;
+}
+
+.container-fluid {
+    background: #2c4762 url("../images/blue_background.png") top repeat-x;
+}
+
+#header {
+    margin-top: 11px;
+    margin-bottom: 3px;
+}
+
+#main_content {
+    background: rgb(38, 62, 85);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-top: 14px;
+}
+
+.content {
+    background: rgb(243, 244, 247);
+    border-radius: 15px;
+    padding: 20px;
+    font: italic 700 68px/1 "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 100;
+    line-height: 1;
+}
+
+#footer {
+    background: rgb(38, 62, 85);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 14px;
+}
+
+#comments {
+    background: rgb(243, 244, 247);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.language_button {
+    margin-bottom: 5px;
+}
