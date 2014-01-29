@@ -1,4 +1,4 @@
-function mainCtrl($scope, $routeParams)
+function mainCtrl($scope, $routeParams, $timeout)
 {
   $scope.locale = 'en';
   $scope.isEditable = false;
@@ -22,7 +22,10 @@ function mainCtrl($scope, $routeParams)
   };
 
   $('html, body').scrollTop(350);
-  $('html, body').animate({scrollTop:0}, 2000);
+  $timeout(function() {
+    $('html, body').animate({scrollTop:0}, 2000);
+  }, 2000);
+
 }
 
 function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams, $http) {
