@@ -1,30 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a2be76c-457d-495e-bdb7-a2455c7b38a2" name="Default" comment="Trying to remove rakeFile&#10;">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/analytics" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/analytics-providers/getclicky" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/analytics-providers/google" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/analytics-providers/mixpanel" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/categories_list" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/comments" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/comments-providers/disqus" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/comments-providers/facebook" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/comments-providers/intensedebate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/comments-providers/livefyre" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/liquid_raw" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/pages_list" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/posts_collate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/setup" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/sharing" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/tags_list" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/root" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/themes/twitter/default.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/themes/twitter/defaultD3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/themes/twitter/old_default.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/themes/twitter/page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/themes/twitter/post.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/themes/twitter/settings.yml" afterPath="" />
+    <list default="true" id="7a2be76c-457d-495e-bdb7-a2455c7b38a2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RakefileLLLLLLL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/atom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blogTreeSource.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/changelog.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sitemap.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path=".idea/workspace.xml" />
@@ -51,10 +35,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="22" selection-start="2420" selection-end="2420" vertical-scroll-proportion="0.17942584" vertical-offset="720" max-vertical-offset="1335">
+            <state line="53" column="22" selection-start="2420" selection-end="2420" vertical-scroll-proportion="-5.2083335" vertical-offset="670" max-vertical-offset="1335">
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -62,46 +46,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RakefileLLLLLLL" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RakefileLLLLLLL">
+      <file leaf-file-name="categories.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/categories.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="306" column="25" selection-start="0" selection-end="10752" vertical-scroll-proportion="0.0" vertical-offset="4021" max-vertical-offset="4710">
+            <state line="0" column="84" selection-start="70" selection-end="84" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
+      <file leaf-file-name="default.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1980">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="750">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sitemap.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sitemap.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tags.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tags.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="405">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="431">
               <folding />
             </state>
           </provider>
@@ -147,6 +104,7 @@
         <option value="$PROJECT_DIR$/index.md" />
         <option value="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -201,20 +159,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Urigo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Urigo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Urigo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2168,7 +2112,27 @@
       <created>1391013348121</created>
       <updated>1391013348121</updated>
     </task>
-    <option name="localTasksCounter" value="462" />
+    <task id="LOCAL-00462" summary="Trying to remove all includes">
+      <created>1391013435045</created>
+      <updated>1391013435045</updated>
+    </task>
+    <task id="LOCAL-00463" summary="Try to fix failre">
+      <created>1391013499213</created>
+      <updated>1391013499213</updated>
+    </task>
+    <task id="LOCAL-00464" summary="Try to fix failre&#10;">
+      <created>1391013558815</created>
+      <updated>1391013558815</updated>
+    </task>
+    <task id="LOCAL-00465" summary="Try to fix failre&#10;">
+      <created>1391013684991</created>
+      <updated>1391013684991</updated>
+    </task>
+    <task id="LOCAL-00466" summary="Removing plugins">
+      <created>1391013749149</created>
+      <updated>1391013749149</updated>
+    </task>
+    <option name="localTasksCounter" value="467" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -2229,10 +2193,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Font size" />
-    <MESSAGE value="Font size&#10;" />
-    <MESSAGE value="Embeding medium" />
-    <MESSAGE value="Embeding google drive&#10;" />
     <MESSAGE value="Try to fix https errror" />
     <MESSAGE value="Try to fix https error&#10;" />
     <MESSAGE value="Fix font" />
@@ -2254,7 +2214,11 @@
     <MESSAGE value="Removing old tests" />
     <MESSAGE value="Removing strange JSON" />
     <MESSAGE value="Trying to remove rakeFile&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying to remove rakeFile&#10;" />
+    <MESSAGE value="Trying to remove all includes" />
+    <MESSAGE value="Try to fix failre" />
+    <MESSAGE value="Try to fix failre&#10;" />
+    <MESSAGE value="Removing plugins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing plugins" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2444,13 +2408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
@@ -2502,23 +2459,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
-          <folding />
+        <state line="53" column="22" selection-start="2420" selection-end="2420" vertical-scroll-proportion="-5.2083335" vertical-offset="670" max-vertical-offset="1335">
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sitemap.txt">
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="439">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tags.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="439">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
@@ -2527,29 +2479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="84" selection-start="70" selection-end="84" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RakefileLLLLLLL">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="306" column="25" selection-start="0" selection-end="10752" vertical-scroll-proportion="0.0" vertical-offset="4021" max-vertical-offset="4710">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1980">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="22" selection-start="2420" selection-end="2420" vertical-scroll-proportion="0.17942584" vertical-offset="720" max-vertical-offset="1335">
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
