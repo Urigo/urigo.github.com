@@ -23,7 +23,6 @@
     <script src="/scripts/controllers/controllers.js"></script>
 
     <script>
-
         function loadDisqus(currentPageId) {
             // http://docs.disqus.com/help/2/
             window.disqus_shortname = 'lifessmalltutorial';
@@ -40,11 +39,9 @@
 
             angular.element(document.getElementById('disqus_thread')).html('');
         }
-
-
     </script>
 </head>
-<body onload="init();" ng-controller="mainCtrl" contenteditable="true">
+<body ng-controller="mainCtrl" contenteditable="true">
     <div class="container-fluid">
         <div class="row-fluid">
             <div class="span1"></div>
