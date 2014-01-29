@@ -21,7 +21,7 @@ function mainCtrl($scope, $routeParams)
     $scope.$broadcast('changeLanguage');
   };
 
-  $('html, body').animate({scrollTop:400}, 1200);
+  $('html, body').animate({scrollTop:350}, 1200);
 }
 
 function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams, $http) {
