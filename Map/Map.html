@@ -1,44 +1,41 @@
 <div ng-show="locale=='en'">
-    <h1>Life's small tutorials blog</h1>
-    <!--
-    <button ng-click="saveToGit()">
-        Save to git
-    </button>
-    -->
-    </br>
+  <h1>Life's small tutorials blog</h1>
+  <!--
+  <button ng-click="saveToGit()">
+      Save to git
+  </button>
+  -->
+  </br>
 
-    This blog is based on the idea that anything that an individual person does, and not sharing it, is a waste of time.
-    </br>
+  This blog is based on the idea that anything that an individual person does, and not sharing it, is a waste of time.
+  </br>
 
-    Why?
+  Why?
 
-    </br>
+  </br>
 
-    Because of "Collaboration.html" and "Openness.html"
+  Because of "Collaboration.html" and "Openness.html"
 
-    </br>
+  </br>
 
-    This blog depends on you to share your ideas and thoughts and notes on whatever subjects you fill like sharing..
+  This blog depends on you to share your ideas and thoughts and notes on whatever subjects you fill like sharing..
 
-    </br>
+  </br>
 
-    Please start by navigating thorough the map on the top.
+  Please start by navigating thorough the map on the top.
 
-    <a href="https://www.beeminder.com">Keep track of goals</a>
-    <a href="https://www.stickk.com">Also</a>
+  <a href="https://www.beeminder.com">Keep track of goals</a>
+  <a href="https://www.stickk.com">Also</a>
 
-    <h1>Latest updates</h1>
+  <h1>Latest updates</h1>
 
-    <div ng-repeat="entry in latestUpdates.entries">
-        <h3>{{entry.publishedDate | date:'medium'}}</h3>
-        <p>{{entry.title}} has changed by {{entry.author}}</p>
-        <p>{{entry.contentSnippet}}</p>
-        <a href="{{entry.link}}">See changes...</a>
-    </div>
-  <div>
-    <iframe src="https://docs.google.com/document/d/1ykE1szj_lnFdCnhIiCL32Xe62SvIbf26ud9tMi_HSZU/pub?embedded=true"></iframe>
+  <div ng-repeat="entry in latestUpdates.entries">
+    <h3>{{entry.publishedDate | date:'medium'}}</h3>
+    <p>{{entry.title}} has changed by {{entry.author}}</p>
+    <p>{{entry.contentSnippet}}</p>
+    <a href="{{entry.link}}">See changes...</a>
   </div>
 </div>
 <div ng-show="locale=='he'">
-    בלוג בעברית
+  בלוג בעברית
 </div>
