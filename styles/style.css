@@ -4,6 +4,7 @@ html, body {
 
 .container-fluid {
     background: #ffffff;
+  padding-left: 0;
 }
 
 #header {
