@@ -3,7 +3,7 @@ html, body {
 }
 
 .container-fluid {
-    background: #2c4762 url("../images/blue_background.png") top repeat-x;
+    background: #ffffff;
 }
 
 #header {
@@ -19,7 +19,7 @@ html, body {
 }
 
 .content {
-    background: rgb(243, 244, 247);
+    background: #ffffff;
     border-radius: 15px;
     padding: 20px;
     font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
