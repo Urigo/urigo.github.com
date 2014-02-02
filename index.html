@@ -55,30 +55,27 @@
         <div class="bs-sidebar hidden-print affix" role="complementary">
           <ul class="nav bs-sidenav">
             <li>
-              <a href="#overview">Overview</a>
+              <a href="http://www.mindmeister.com/131388810" target="_blank" class="btn btn-primary">
+                Click to improve this map above..
+              </a>
             </li>
             <li class="">
-              <a href="#grid">Grid system</a>
+              <button class="btn btn-primary language_button" id="israel" ng-click="changeLanguage('he')" ng-show="locale!='he'">
+                Change language
+              </button>
+              <button class="btn btn-primary language_button" id="US" ng-click="changeLanguage('en')" ng-show="locale!='en'">
+                Change language
+              </button>
             </li>
             <li>
-              <a href="#type">Typography</a>
+              <a ng-href="https://github.com/Urigo/urigo.github.com/edit/master{{ templateUrl }}"
+                 class="btn btn-primary"
+                 target="_blank">
+                Click to improve/change this page content
+              </a>
             </li>
           </ul>
         </div>
-        <a href="http://www.mindmeister.com/131388810" target="_blank" class="btn btn-primary">
-          Click to improve this map above..
-        </a>
-        <button class="btn btn-primary language_button" id="israel" ng-click="changeLanguage('he')" ng-show="locale!='he'">
-          Change language
-        </button>
-        <button class="btn btn-primary language_button" id="US" ng-click="changeLanguage('en')" ng-show="locale!='en'">
-          Change language
-        </button>
-        <a ng-href="https://github.com/Urigo/urigo.github.com/edit/master{{ templateUrl }}"
-           class="btn btn-primary"
-           target="_blank">
-          Click to improve/change this page content
-        </a>
       </div>
       <div class="col-md-9">
 
