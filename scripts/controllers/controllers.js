@@ -2,6 +2,7 @@ function mainCtrl($scope, $routeParams, $timeout)
 {
   $scope.locale = 'en';
   $scope.isEditable = false;
+  $scope.templateUrl = '';
 
   $scope.SubmitChange = function(){
     var x = $routeParams.urlParam.lastIndexOf('/');
