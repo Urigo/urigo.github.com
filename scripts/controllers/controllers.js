@@ -67,7 +67,7 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
       fileName = fileName + "_" + $scope.$parent.locale;
       // TODO: Insert code for specific file by locale
       $scope.templateUrl = '/Map/'+$routeParams.urlParam+'/'+fileName+'.html';
-      console.log($scope.templateUrl);
+      console.log("Template url", $scope.templateUrl);
 
       iframe.src = src;
     }
