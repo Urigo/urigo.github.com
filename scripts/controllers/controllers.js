@@ -48,7 +48,7 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
     if ($routeParams.urlParam == undefined ||
       $routeParams.urlParam == '')
     {
-      $scope.templateUrl = '/Map/Map.html';
+      $scope.$parent.templateUrl = '/Map/Map.html';
 
       $.ajax({
         url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent('https://github.com/Urigo/urigo.github.com/commits/master.atom'),
@@ -68,8 +68,8 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
       console.log($scope.$parent.locale);
       fileName = fileName + "_" + $scope.$parent.locale;
       // TODO: Insert code for specific file by locale
-      $scope.templateUrl = '/Map/'+$routeParams.urlParam+'/'+fileName+'.html';
-      console.log("Template url", $scope.templateUrl);
+      $scope.$parent.templateUrl = '/Map/'+$routeParams.urlParam+'/'+fileName+'.html';
+      console.log("Template url", $scope.$parent.templateUrl);
 
       iframe.src = src;
     }
@@ -83,7 +83,7 @@ function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams,
   });
 
   $scope.afterPartialLoaded = function() {
-    var currentPageId = $scope.templateUrl;
+    var currentPageId = $scope.$parent.templateUrl;
     loadDisqus(currentPageId);
   };
 
